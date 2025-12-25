@@ -1,6 +1,6 @@
 async function getWeather(){
     let city = document.getElementById("city").value;
-    let Apikey = "b746ea1990f36ed14d3fb884dd80ab25";
+    let Apikey = "92436082d1308d38d69a74b20a053f4c";
 
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${Apikey}`;
 
@@ -11,4 +11,5 @@ async function getWeather(){
     Weather : ${data.weather[0].description}`;
 
 }
+
 
