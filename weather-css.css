@@ -5,7 +5,7 @@ body{
     justify-content: center;
 }
 
-h1{
+.color-animate{
     font-weight: bold;
     animation: colorChange 5s linear infinite;
 }
@@ -31,3 +31,4 @@ input, button {
     font-size: 18px;
 
 }
+
