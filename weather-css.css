@@ -8,6 +8,7 @@ body{
 .color-animate{
     font-weight: bold;
     animation: colorChange 5s linear infinite;
+    animation-timing-function: ease-in-out;
 }
 @keyframes colorChange{
     0%{
@@ -31,4 +32,5 @@ input, button {
     font-size: 18px;
 
 }
+
 
