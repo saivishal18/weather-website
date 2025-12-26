@@ -1,6 +1,24 @@
 body{
     font-family: "Arial";
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-weight: bold;
+    animation: colorChange 5s linear infinite;
+}
+@keyframes colorChange{
+    0%{
+        color: red;
+    } 33%{
+        color: green;
+    } 66%{
+        color: blue;
+    } 100%{
+        color: red;
+    }
 }
 
 input, button {
@@ -11,4 +29,5 @@ input, button {
 #showWeather{
     margin-top: 5px;
     font-size: 18px;
+
 }
